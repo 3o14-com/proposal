@@ -15,9 +15,6 @@
         default = pkgs.mkShell {
           packages = with pkgs; [
             texlive.combined.scheme-full
-            texlivePackages.placeins
-            texlivePackages.tocloft
-            texlivePackages.titlesec
             texlab
             tectonic
           ];
