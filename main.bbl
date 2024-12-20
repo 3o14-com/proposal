@@ -20,7 +20,9 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{edcd}
-Epidemiology and D.~C. Division, ``https://www.edcd.gov.np/section/dengue-control-program,'' 2023.
+\bibitem{ActivityPub}
+\BIBentryALTinterwordspacing
+C.~Webber and J.~Tallon, ``Activitypub,'' W3C. [Online]. Available: \url{https://www.w3.org/TR/activitypub/}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}
