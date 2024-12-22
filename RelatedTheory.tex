@@ -1,2 +1,67 @@
 \chapter{RELATED THEORY}
-\section{Related Theory goes here}
+\section{Federation}
+A federated social network is a decentralized social networking service distributed across distinct service providers. This architecture mirrors the distribution model of email systems, where users with accounts on different providers can freely communicate with each other. The federation of social networks represents a shift towards treating social media as a public utility rather than a centralized service.
+
+Unlike traditional centralized social networks where all users interact through a single service provider, federated networks allow users to:
+\begin{itemize}
+    \item Choose their preferred instance (server) while still communicating with users on other instances
+    \item Maintain control over their data through their chosen instance
+    \item Benefit from instance-specific moderation policies while participating in the broader network
+\end{itemize}
+
+The federation model offers several key advantages over centralized systems:
+\begin{itemize}
+    \item Resilience: No single point of failure as the network operates across multiple independent servers
+    \item Data Sovereignty: Each instance maintains control over its users' data and policies
+    \item Interoperability: Users can communicate across instances using standardized protocols
+    \item Scalability: The network can grow organically as new instances join the federation
+\end{itemize}
+
+This distributed approach is particularly relevant for scientific communication as it allows academic institutions to maintain their own instances while participating in the broader scientific discourse across the network.
+
+\section{ActivityPub Protocol}
+ActivityPub is a decentralized social networking protocol standardized by the World Wide Web Consortium (W3C) \cite{ActivityPub}. It provides a client-to-server API for creating, updating, and deleting content, as well as a server-to-server API for delivering notifications and content between different servers. The protocol is built on several key concepts:
+
+\subsubsection{Actors}
+Actors represent users, groups, or applications that can send and receive activities. Each actor has:
+\begin{itemize}
+    \item A unique URI that serves as their identity across the federation
+    \item An inbox for receiving activities from other actors
+    \item An outbox for publishing activities to followers
+\end{itemize}
+
+\subsubsection{Activities}
+Activities describe actions that actors take, such as:
+\begin{itemize}
+    \item Create: Publishing new content
+    \item Follow: Subscribing to another actor's activities
+    \item Like: Expressing appreciation for content
+    \item Announce: Sharing content with followers
+\end{itemize}
+
+\subsubsection{Objects}
+Objects represent the content being acted upon, such as:
+\begin{itemize}
+    \item Notes (posts)
+    \item Articles
+    \item Images
+    \item Comments
+\end{itemize}
+
+\subsection{Implementation}
+The implementation of federation through ActivityPub requires several key components:
+\begin{itemize}
+    \item HTTP signatures for request authentication
+    \item JSON-LD for data representation
+    \item WebFinger for actor discovery across instances
+    \item Content delivery mechanisms between servers
+\end{itemize}
+
+\subsection{Security Considerations}
+Federation introduces specific security requirements:
+\begin{itemize}
+    \item Signature verification for cross-instance communications
+    \item Instance-level access control and moderation capabilities
+    \item Protection against spam and abuse across instances
+    \item Data privacy and sovereignty considerations
+\end{itemize}
