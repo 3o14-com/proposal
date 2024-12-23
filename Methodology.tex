@@ -1,3 +1,28 @@
 \chapter{METHODOLOGY}
-\section{Overview}
-\section{Other section goes here}
+
+The proposed system for a decentralized social media platform includes the following blocks:
+
+\section{Requirement Analysis}
+Identify user needs, including secure data sharing, privacy controls, and support for decentralized communication. Analyze existing federated platforms such as Mastodon to integrate best practices. Define key features like user profiles, posts, and federation.
+
+\section{System Design}
+Create an architectural blueprint for a federated platform using the ActivityPub protocol. Define data flow for secure communication between servers. Design a user-friendly interface (UI) through wireframes and mockups.
+
+\section{Development}
+Implement the system in two main parts:
+\begin{itemize}
+    \item \textbf{Backend Development:} Build APIs for features like user authentication, content creation, and federation. Ensure secure communication using data encryption. Stack: Python, Django
+    \item \textbf{Frontend Development:} Develop a responsive interface integrating with backend APIs. Stack: ReactNative, Typescript, Expo
+\end{itemize}
+
+\section{Integration with Decentralized Protocols}
+Use ActivityPub to enable federated interaction between instances.
+
+\section{Testing}
+Conduct unit tests for individual components such as authentication and post sharing. Perform integration tests to validate interactions between backend, frontend, and federation protocols. Stress test the platform to assess scalability.
+
+\section{Deployment}
+Deploy the platform by hosting federated instances using Docker and Nix . Provide tools for users to create new instances or join existing ones.
+
+\section{Performance Evaluation}
+Regularly monitor the platform’s performance, focusing on scalability, security, and user satisfaction. Iterate based on feedback and improvements in decentralized protocols.
