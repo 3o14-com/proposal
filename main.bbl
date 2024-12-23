@@ -25,4 +25,29 @@
 C.~Webber and J.~Tallon, ``Activitypub,'' W3C. [Online]. Available: \url{https://www.w3.org/TR/activitypub/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{mastodon}
+\BIBentryALTinterwordspacing
+E.~Rochko, ``Mastodon: Social networking that's not for sale,'' 2016. [Online]. Available: \url{https://joinmastodon.org}
+\BIBentrySTDinterwordspacing
+
+\bibitem{pixelfed}
+\BIBentryALTinterwordspacing
+D.~Supernault, ``Pixelfed: A decentralized photo sharing platform,'' 2018. [Online]. Available: \url{https://pixelfed.org}
+\BIBentrySTDinterwordspacing
+
+\bibitem{peertube}
+\BIBentryALTinterwordspacing
+``Peertube: An alternative to big tech's video platforms,'' Framasoft, 2017. [Online]. Available: \url{https://joinpeertube.org}
+\BIBentrySTDinterwordspacing
+
+\bibitem{lemmy}
+\BIBentryALTinterwordspacing
+``Lemmy: A federated link aggregator,'' LemmyNet, 2020. [Online]. Available: \url{https://join-lemmy.org}
+\BIBentrySTDinterwordspacing
+
+\bibitem{webfinger}
+\BIBentryALTinterwordspacing
+``Rfc 7033: Webfinger,'' Internet Engineering Task Force, Tech. Rep., September 2013. [Online]. Available: \url{https://tools.ietf.org/html/rfc7033}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
